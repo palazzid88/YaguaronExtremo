@@ -30,13 +30,33 @@
         </div>
     </header>
     <main>
-        <div>
-            <ul>
-                <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="https://www.sannicolasciudad.gob.ar/" target="_blank">SN ciudad</a></li>
-            </ul>
-        </div>
+        <section>
+            <div>
+                <ul>
+                    <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.sannicolasciudad.gob.ar/" target="_blank">SN ciudad</a></li>
+                </ul>
+                <div>
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                        
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required><br><br>
+                        
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular" required><br><br>
+                        
+                        <label for="consulta">Consulta:</label><br>
+                        <textarea id="consulta" name="consulta" rows="5" cols="30"></textarea><br><br>
+                        
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                      </form>    
+                </div>
+            </div>
+        </section>
         <footer>
             <div>                    
                 <p>Todos los derechos reservados a Desafío Yaguarón</p>
