@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVAR */
+
+.img-logo {
+    width: 250px;
+}
+
+.nav-container, .ul-container, .ul-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #84a98c;
+}
+
+.ul-list {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.li-list {
+    padding: 10px;
+}
+
+.li-btn {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #31572c;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #31572c;
+}
+
+.img-carousel {
+    width: 100%;
+}
+
+
+.div-title {
+    color: white;
+    background-color: #31572c;
+    text-align: center;
+    /*
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    */
+}
+.div-subtitle {
+    text-align: center;
+    background-color: #84a98c;
+}
+
+.h1-subtitle {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.div-card {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+/* ### FOOTER ### */
+
+.footer-container {
+    background-color: black;
+    color: white;
+}
+  
+  

@@ -4,52 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./styles.css">
     <title>yaguarónSn</title>
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <div>
-                    <h1> <a href="./index.html">(logo)</a></h1>
-                </div>
-                <div>
-                    <ul style="list-style: none;">
-                        <li>Running</li>
-                        <li>montain bike</li>
-                        <li>nado</li>
-                    </ul>
-                    <ul style="list-style: none;">                    
-                        <li><a href="./pages/contacto.html">Contacto</a></li>
-                        <li><a href="./pages/horarios.html">Horarios de atención</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        </header>
-        <main>
-            <section>
+        <nav class="nav-container">
+            <div>
+                <img src="./img/logov.png" href="./index.html" class="img-logo" alt="logo de desafío Yaguarón, posee un círculo que representa los anillos del Ecoparque">
+            </div>
+            <div class="ul-container">
+                <ul class="ul-list">                    
+                    <li class="li-list"><a href="./pages/contacto.html" class="li-btn">Contacto</a></li>
+                    <li class="li-list"><a href="./pages/horarios.html" class="li-btn">Horarios de atención</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-carousel">
+            <div>
+                <img class="img-carousel" src="./img/eco2.jpeg">
+            </div>
+        </section>
+        <section>
+            <div class="div-subtitle">
+                <h1 class="h1-subtitle">modalidades</h1>
+            </div>
+        </section>
+        <section>
+            <div class="div-card">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/card-running.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Running</h5>
+                      <p class="card-text">Trail runing por los hermosos paisajes del Eco Parque, sorteando distintos obstáculos que se presenten en el camino.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/card-mtb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MTB en circuito</h5>
+                      <p class="card-text">Para los amantes del XC les traemos un circuito que se destaca por los maravillosos senderos, ascensos y descensos que requieren de gran nivel técnico para sortearlos.</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/card-nado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aguas Abiertas</h5>
+                      <p class="card-text">Disfrutá de nuestro hermoso Yaguarón sumergíendote en el, esta propuesta de nado en aguas abiertas representa un gran desafío!, ¿te lo vas a perder?</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div >
                 <div class="div-title">
-                    <h1 class="title">Desafío yaguaron Adventure</h1>
-                    <h4 class="subtitle">LO ÚNICO IMPOSIBLE ES AQUELLO QUE NO INTENTAS</h4>
+                    <h1 class="h1-subtitle">Lo único imposible es aquello que no intentas</h1>
                 </div>
-                <div class="img">
-                    <img src="./img/eco2.jpeg" alt="">
-                </div>
-            </section>
-            <footer>
-                <div>                    
-                    <p>Todos los derechos reservados a Desafío Yaguarón</p>
-                    <p>revolución digital - animate a programar</p>
-                    <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
-                    <ul>
-                        <li>Palazzi, David E</li>
-                        <li>email: palazzid88@gmail.com</li>
-                        <li>(0336) 154309084</li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
+            </div>
+        </section>
+        <footer class="footer-container">
+            <div>                    
+                <p>Todos los derechos reservados a Desafío Yaguarón</p>
+                <p>revolución digital - animate a programar</p>
+                <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
+                <ul>
+                    <li>Palazzi, David E</li>
+                    <li>email: palazzid88@gmail.com</li>
+                    <li>(0336) 154309084</li>
+                </ul>
+            </div>
+        </footer>
+    </main>
     
 </body>
 </html>
