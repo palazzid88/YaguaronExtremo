@@ -9,12 +9,24 @@
     width: 250px;
 }
 
-.nav-container, .ul-container, .ul-list {
+.nav-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #84a98c;
+    /* background-color: #84a98c; */
+}
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ul-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .ul-list {
@@ -30,12 +42,24 @@
 }
 
 .li-btn {
+    transition: 1s;
     font-size: small;
     color: white;
     text-decoration: none;
     padding: 10px;
     border: 1px solid #31572c;
     border-radius: 0px 20px 0px 20px;
+    background-color: #31572c;
+}
+
+.li-btn:hover {
+    transition: 1s;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #31572c;
+    border-radius: 20px 0px 20px 0px;
     background-color: #31572c;
 }
 
@@ -46,8 +70,9 @@
 
 .div-title {
     color: white;
-    background-color: #31572c;
+    background-color: #774936;
     text-align: center;
+    padding: 50px;
     /*
     align-items: center;
     display: flex;
@@ -59,7 +84,8 @@
 }
 .div-subtitle {
     text-align: center;
-    background-color: #84a98c;
+    background-color: #774936;
+    padding: 50px;
 }
 
 .h1-subtitle {
@@ -72,18 +98,110 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card {
     margin: 10px;
 }
 
+.section-banner {
+    width: 100%;
+}
+
+.img-banner {
+    width: 100%;
+}
+
 /* ### FOOTER ### */
 
 .footer-container {
-    background-color: black;
+    background-color: #132a13;
+    background-image: url("./img/footerimg.jpg");
     color: white;
 }
+
+.div-footer {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p-footer, .div-li-footer {
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.li-footer {
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 20px 0 20px;
+
+}
+
+
+/*### PAGINA HORARIOS ###*/
+
+.td-bold {
+    background-color: #31572c;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.td-italic {
+    background-color: #84a98c;
+    font-style: italic;
+}
+
+.table-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
   
-  
+@media screen and (min-width: 300px) and (max-width: 479px) {
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ul-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p-footer, p {
+    text-align: center;
+}
+
+.ul-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+}
