@@ -115,6 +115,14 @@
     width: 100%;
 }
 
+.main-wtp {
+    height: 70px;
+    position: fixed;
+    left: 80%;
+    top: 80%;
+    transition: height 1s;
+    z-index: 50; }
+
 /* ### FOOTER ### */
 
 .footer-container {
