@@ -121,7 +121,9 @@
     left: 80%;
     top: 80%;
     transition: height 1s;
-    z-index: 50; }
+    z-index: 50;
+    
+}
 
 /* ### FOOTER ### */
 
