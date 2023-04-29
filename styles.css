@@ -202,6 +202,14 @@
     align-items: center;
 }
 
+.main-wtp {
+    height: 60px;
+    position: fixed;
+    left: 70%;
+    top: 80%;
+    transition: height 1s;
+    z-index: 50; }
+
 .div-p-footer, p {
     text-align: center;
 }
