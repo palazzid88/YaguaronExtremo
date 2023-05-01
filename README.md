@@ -20,3 +20,13 @@ Contendrá imágenes del Eco Parque, "algúna de las imágenes se tomaron del si
 ### Deploy del sitio web:
 https://palazzid88.github.io/revolucion-digital-sn/
 
+
+
+### AUTOR ###
+
+* Palazzi, David Ezequiél
+
+* Whatsapp: https://wa.link/oqm6hb
+* GitHub: https://github.com/palazzid88
+
+
