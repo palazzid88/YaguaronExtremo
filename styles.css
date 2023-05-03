@@ -115,6 +115,40 @@
     width: 100%;
 }
 
+.btn-primary {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.btn-primary:hover {
+    transition: 1s;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.btn-primary2 {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn-primary2:hover {
+    transition: 1s;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue
+}
+
 .main-wtp {
     height: 70px;
     position: fixed;
@@ -189,7 +223,17 @@
     align-items: center;
     align-content: center;
 }
-  
+
+/*### REGISTRATION.HTML ###*/
+
+.container-form {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+
+/*## MEDIA QUIERIES ##*/
+
 @media screen and (min-width: 300px) and (max-width: 479px) {
 .nav-container {
     display: flex;

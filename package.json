@@ -1,0 +1,25 @@
+{
+  "name": "revolucion-digital-sn",
+  "version": "1.0.0",
+  "description": "Este repositorio será para crear el proyecto final de Revolución digital San Nicolás - desarrolloWeb + JS -",
+  "main": "index.js",
+  "scripts": {
+    "start": "/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palazzid88/revolucion-digital-sn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palazzid88/revolucion-digital-sn/issues"
+  },
+  "homepage": "https://github.com/palazzid88/revolucion-digital-sn#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {}
+}
