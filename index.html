@@ -16,9 +16,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav-dark">
             <div class="container-fluid">
-              <img class="navbar-brand" href="../index.html" src="./img/logob.png">
+              <a href="./index.html">
+                <img class="navbar-brand" src="./img/logo2.png">
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -86,32 +88,7 @@
             </div>
         </section>
         <section>
-            <div class="div-card">
-                <div class="card" style="width: 25rem;">
-                    <img src="./img/card-running.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Running</h5>
-                      <p class="card-text">Trail runing por los hermosos paisajes del Eco Parque, sorteando distintos obstáculos que se presenten en el camino.</p>
-                      <a href="./pages/registration.html" class="btn btn-primary">inscribirme</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 25rem;">
-                    <img src="./img/card-mtb.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">MTB en circuito</h5>
-                      <p class="card-text">Para los amantes del XC les traemos un circuito que se destaca por los maravillosos senderos, ascensos y descensos que requieren de gran nivel técnico para sortearlos.</p>
-                      <a href="./pages/registration.html" class="btn btn-primary">inscribirme</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 25rem;">
-                    <img src="./img/card-nado.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Aguas Abiertas</h5>
-                      <p class="card-text">Disfrutá de nuestro hermoso Yaguarón sumergíendote en el, esta propuesta de nado en aguas abiertas representa un gran desafío!, ¿te lo vas a perder?</p>
-                      <a href="./pages/registration.html" class="btn btn-primary">inscribirme</a>
-                    </div>
-                  </div>
-            </div>
+          <div id="main-container" class="main-container"></div>
         </section>
         <section>
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -131,8 +108,8 @@
                 <p>Todos los derechos reservados a Desafío Yaguarón</p>
                 <p>revolución digital - animate a programar</p>
                 <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
-
             </div>
+            <button onclick="toggleDarkMode()">Cambiar a modo oscuro</button>
             <div class="div-li-footer">
                 <ul class="ul-footer">
                     <li class="li-footer">Palazzi, David E</li>
@@ -143,6 +120,7 @@
         </div>
     </footer>
     <script src="./app.js"></script>
+    <script src="./index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

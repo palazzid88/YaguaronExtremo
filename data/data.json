@@ -1,0 +1,14 @@
+[
+    {"img": "/img/card-running.jpg", 
+    "title": "Running", 
+    "info": "Trail runing por los hermosos paisajes del Eco Parque, sorteando distintos obstáculos que se presenten en el camino.", 
+    "btn": "./pages/registration.html"},
+    {"img": "./img/card-nado.jpg", 
+    "title": "Mtb en circuito", 
+    "info": "Para los amantes del XC les traemos un circuito que se destaca por los maravillosos senderos, ascensos y descensos que requieren de gran nivel técnico para sortearlos.", 
+    "btn": "./pages/registration.html"},
+    {"img": "./img/card-mtb.jpg", 
+    "title": "Aguas Abiertas", 
+    "info": "Disfrutá de nuestro hermoso Yaguarón sumergíendote en el, esta propuesta de nado en aguas abiertas representa un gran desafío!, ¿te lo vas a perder?", 
+    "btn": "./pages/registration.html"}
+]

@@ -5,6 +5,24 @@
 
 /* NAVAR */
 
+body {
+    background-color: white;
+    color: black;
+}
+  
+body.dark-mode {
+    background-color: black !important;
+    color: white;
+}
+
+.card.dark-mode {
+    background-color: black;
+}
+  
+#nav-dark.dark-mode {
+    background-color: black;
+}
+
 .img-logo {
     width: 250px;
 }
@@ -73,15 +91,8 @@
     background-color: #774936;
     text-align: center;
     padding: 50px;
-    /*
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    padding: 20px;
-    */
 }
+
 .div-subtitle {
     text-align: center;
     background-color: #774936;
@@ -91,6 +102,16 @@
 .h1-subtitle {
     color: white;
     margin-bottom: 0px;
+}
+
+/*### Render Cards JS ###*/
+
+.main-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .div-card {
@@ -104,6 +125,7 @@
 }
 
 .card {
+    width: 28rem;
     margin: 10px;
 }
 
@@ -231,6 +253,14 @@ a:hover {
     margin-bottom: 100px;
 }
 
+/*### render register ###*/
+
+.register-render {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
 /*## MEDIA QUIERIES ##*/
 
@@ -239,6 +269,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
 }
 
 .ul-list {
@@ -264,6 +303,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.h1-subtitle {
+    font-size: 18px;
 }
     
 }

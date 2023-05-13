@@ -1,15 +1,42 @@
 
+// => Variables 
 let edad;
 let fechaNacimiento;
+let persona = document.getElementById("nombreInput");
 let fechaInput = document.getElementById("fechaNacimientoInput");
 let selectSports = document.getElementById("disciplinaInput");
 let selectCategory = document.getElementById("distancia");
+let register = document.getElementById("register");
+let registerRender = document.getElementById("register-render");
 let selected;
 let category;
+let card;
+let cards;
+let body;
+let navbar;
 
 
 
+//=> Array de inscriptos
+const inscriptos = [];
+
+
+
+//=> Function dark-mode
+function toggleDarkMode() {
+  body = document.body;
+  body.classList.toggle("dark-mode");
+  cards = document.querySelectorAll(".card");
+  cards.forEach((card)=> card.classList.toggle("dark-mode"));
+  navbar = document.getElementById("nav-dark");
+  navbar.classList.toggle("dark-mode")
+}
+
+
+//=> Llamado a la función cálculo de Edad
 ageCalcule();
+
+//=> Llamado a la función enable input from category
 changeValue();
 
 
@@ -33,12 +60,15 @@ console.log("la edad", edad)
       if (edad> 16 && edad <22) {
         console.log("la categoría es juvenil")
         console.log("porque da", edad)
+        category = "juvenil"
       } else {
         if (edad> 23 && edad <35) {
           console.log("la categoría es senior")
+          category = "senior"
         } else {
           if (edad> 36) {
             console.log("la categoría es máster")
+            category = "máster"
           }
         }
       }
@@ -48,21 +78,27 @@ console.log("la edad", edad)
       if (edad> 16 && edad <24) {
         console.log("la categoría es juvenil")
         console.log("porque da", edad)
+        category = "juvenil"
       } else {
         if (edad> 25 && edad <29) {
           console.log("la categoría es Elite")
+          category = "Elíte"
         } else {
           if (edad> 30 && edad <39) {
             console.log("la categoría es máster A")
+            category = "Master A"
           } else {
             if (edad> 40 && edad <49) {
               console.log("la categoría es master B")
+              category = "Master B"
             } else {
               if (edad> 59 && edad <59) {
                 console.log("la categoría es master C")
+                category = "MAster C"
               } else {
                 if (60 <edad) {
                   console.log("la categoría es master D")
+                  category = "MAster D"
                 }
               }
             }
@@ -73,13 +109,16 @@ console.log("la edad", edad)
       break
       case "nado":
         if (edad> 14 && edad <15) {
-          console.log("la categoría es cadete")
+          console.log("la categoría es juvenil")
+          category = "juvenil"
         } else {
           if (edad> 16 && edad <17) {
-            console.log("la categoría es cadete")
+            console.log("la categoría es cadete");
+            category = "Cadete"
           } else {
             if (edad> 18) {
-              console.log("la categoría es Mayor")
+              console.log("la categoría es Mayor");
+              category = "mayor"
             } else {
               
             }
@@ -118,3 +157,57 @@ function changeValue() {
   })
 
 }
+
+
+//=> Creo un evento sobre el btn Registrar
+inscribirUser();
+
+function inscribirUser() {
+  register.addEventListener("click", ()=> {
+    console.log("register");
+    const key = Math.round(Math.random()*1000000)
+    inscribir(key)
+  } )
+}
+
+
+//=> Modelo de objeto de inscripto
+function inscribir (key) {
+  
+const inscripto = {
+  nombre: persona.value,
+  edad: edad,
+  categoria: category,
+  disciplina: selectSports.value,
+  distancia: selectCategory.value,
+  id: key 
+}
+
+//=> pusheo los objetos inscriptos al array
+inscriptos.push(inscripto)
+console.log(inscriptos)
+
+renderizarInscripto();
+}
+
+
+function renderizarInscripto() {
+  registerRender.innerHTML = "" 
+  inscriptos.forEach(item => {
+    let {nombre, categoria, disciplina, distancia, id} = item;
+    let div = document.createElement('div');
+    div.className = 'div-render';
+    div.innerHTML = 
+                      `<div class="inscripto">
+                        <h3>Datos del inscripto:</h3>
+                        <h5>Nombre: ${nombre}</h5>
+                        <p>Categoría: ${categoria}</p>
+                        <p>Disciplina: ${disciplina}</p>
+                        <p>DIstancia: ${distancia}</p>
+                        <p>Comprobante: ${id}</p>
+                      <div`
+    registerRender.appendChild(div)
+  })
+}
+
+
