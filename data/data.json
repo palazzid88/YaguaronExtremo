@@ -1,5 +1,5 @@
 [
-    {"img": "/img/card-running.jpg", 
+    {"img": "./img/card-running.jpg", 
     "title": "Running", 
     "info": "Trail runing por los hermosos paisajes del Eco Parque, sorteando distintos obstáculos que se presenten en el camino.", 
     "btn": "./pages/registration.html"},
