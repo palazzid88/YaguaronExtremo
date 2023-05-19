@@ -107,6 +107,25 @@ body.dark-mode {
 /*### Render Cards JS ###*/
 
 .main-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.main-container > .div-container {
+    scroll-snap-align: start;
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* 
+.main-container {
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -123,11 +142,11 @@ body.dark-mode {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
+*/
 .card {
     width: 25rem;
     margin: 10px;
-}
+} 
 
 .section-banner {
     width: 100%;
