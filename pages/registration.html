@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a href="../index.html">
-                <img class="navbar-brand" src="./img/logo2.png">
+                <img class="navbar-brand" src="../img/logoed.png">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -64,6 +64,11 @@
                         <option value="mtb">mtb</option>
                         <option value="nado">nado</option>
                     </select>
+                    <div>
+                      <p id="render-category" class="render-category">
+                        <!-- Render Category from app.js -->
+                      </p>
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="distancia" class="form-label">Distancia:</label>
@@ -76,7 +81,9 @@
               </form>
         </div>
         <!-- innerHTML Register app.js -->
-        <div class="register-render" id="register-render"></div>
+        <div class="register-render" id="register-render">
+          <!-- render category -->
+        </div>
     </main>
     <footer class="footer-container">
       <div class="div-footer">
@@ -96,6 +103,7 @@
       </div>
   </footer>
     <script src="../app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
     

@@ -17,10 +17,6 @@ let navbar;
 
 
 
-//=> Array de inscriptos
-const inscriptos = [];
-
-
 
 //=> Function dark-mode
 function toggleDarkMode() {
@@ -128,8 +124,21 @@ console.log("la edad", edad)
     default:
       break;
   }
+renderCategory(category);
 
 }
+
+
+function renderCategory(category) {
+  const categoryUser = category;
+  const renderCategoryp = document.getElementById("render-category");
+  renderCategoryp.innerHTML = ""
+  if ( edad != undefined) {
+    renderCategoryp.innerHTML = `* su categoría: ${categoryUser}`;
+  }
+}
+
+
 
 
 //=> Habilita la opción distancia en base a la actividad que selecciona
@@ -159,55 +168,37 @@ function changeValue() {
 }
 
 
-//=> Creo un evento sobre el btn Registrar
-inscribirUser();
+register.addEventListener("click", ()=> {
 
-function inscribirUser() {
-  register.addEventListener("click", ()=> {
-    console.log("register");
-    const key = Math.round(Math.random()*1000000)
-    inscribir(key)
-  } )
-}
+  const datos = 
+  `<h5>Nombre: ${persona.value}</h5>
+  <p>Categoría: ${category}</p>
+  <p>Disciplina: ${selectSports.value}</p>
+  <p>DIstancia: ${selectCategory.value}</p>
+  <div>`
 
 
-//=> Modelo de objeto de inscripto
-function inscribir (key) {
-  
-const inscripto = {
-  nombre: persona.value,
-  edad: edad,
-  categoria: category,
-  disciplina: selectSports.value,
-  distancia: selectCategory.value,
-  id: key 
-}
-
-//=> pusheo los objetos inscriptos al array
-inscriptos.push(inscripto)
-console.log(inscriptos)
-
-renderizarInscripto();
-}
-
-
-function renderizarInscripto() {
-  registerRender.innerHTML = "" 
-  inscriptos.forEach(item => {
-    let {nombre, categoria, disciplina, distancia, id} = item;
-    let div = document.createElement('div');
-    div.className = 'div-render';
-    div.innerHTML = 
-                      `<div class="inscripto">
-                        <h3>Datos del inscripto:</h3>
-                        <h5>Nombre: ${nombre}</h5>
-                        <p>Categoría: ${categoria}</p>
-                        <p>Disciplina: ${disciplina}</p>
-                        <p>DIstancia: ${distancia}</p>
-                        <p>Comprobante: ${id}</p>
-                      <div`
-    registerRender.appendChild(div)
-  })
-}
-
-
+  console.log("register");
+  const key = Math.round(Math.random()*1000000);
+    Swal.fire({
+      title: 'Confirma su inscripción?',
+      html: datos,
+      text: "",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Si! confirmo'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: "su número de operación ID:",          
+          html: key,
+          icon: "success"
+        }).then((result) => {
+          if (result.isConfirmed) {
+        window.location.href = "../index.html";
+      }
+    })
+  }})
+})

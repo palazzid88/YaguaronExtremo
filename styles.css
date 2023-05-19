@@ -125,7 +125,7 @@ body.dark-mode {
 }
 
 .card {
-    width: 28rem;
+    width: 25rem;
     margin: 10px;
 }
 
@@ -260,6 +260,10 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.render-category {
+    color: red;
 }
 
 /*## MEDIA QUIERIES ##*/
