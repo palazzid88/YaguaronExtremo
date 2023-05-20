@@ -22,7 +22,7 @@ function renderCards(cards) {
                                 <div class="card-body">
                                     <h2 class="card-title">${title}</h2>
                                     <p class="card-text">${info}</p>
-                                    <a class="btn btn-primary" href="${btn}">Inscribirme</a>
+                                    <a class="btn btn-primary" href="${btn}">Más información</a>
                                 </div>
                         </div>`
         contenedor.appendChild(div);

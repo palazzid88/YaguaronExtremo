@@ -23,6 +23,10 @@ body.dark-mode {
     background-color: black;
 }
 
+.navbar {
+    background-image: url("./img/nav.png");
+}
+
 .img-logo {
     width: 250px;
 }
@@ -103,6 +107,7 @@ body.dark-mode {
     color: white;
     margin-bottom: 0px;
 }
+
 
 /*### Render Cards JS ###*/
 
@@ -200,6 +205,36 @@ a:hover {
     
 }
 
+/*### running ###*/
+
+.div-modalidad {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*### MTB ###*/
+
+.div-container-mtb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-map {
+    width: 100%;
+}
 /* ### FOOTER ### */
 
 .footer-container {
