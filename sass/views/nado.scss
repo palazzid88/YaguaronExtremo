@@ -1,0 +1,46 @@
+.banner-nado {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    background-image: url("../../img/carousel2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    .banner-description {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        .btn-primary {
+            background-color: orangered;
+            border-color: orangered;
+        }        
+        .btn-primary:hover {
+            transition: 1s;
+            background-color: white; 
+            color: orangered;
+            border: 1px solid orangered;
+        }    
+        .h1-banner {
+            padding: 5px;
+            font-size: 50px;
+            color:  #fff;
+            border-radius: 10px;
+        }
+}
+}
+.btn-primary {
+    background-color: orangered;
+    border-color: orangered;
+}        
+.btn-primary:hover {
+    transition: 1s;
+    background-color: white; 
+    color: orangered;
+    border: 1px solid orangered;
+}

@@ -1,0 +1,40 @@
+/* ### FOOTER ### */
+
+.footer-container {
+    background-color: #132a13;
+    background-image: url("../../img/footerimg.jpg");
+    color: white;
+}
+
+.div-footer {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-p-footer, .div-li-footer {
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.li-footer {
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 20px 0 20px;
+
+}

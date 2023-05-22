@@ -1,0 +1,23 @@
+/*### REGISTRATION.HTML ###*/
+
+.container-form {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+/*### render register ###*/
+
+.register-render {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.render-category {
+    color: red;
+}
+
+form{
+    margin-bottom: 50px;
+}

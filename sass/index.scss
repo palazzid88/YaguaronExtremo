@@ -1,0 +1,17 @@
+/* IMPORT PARTIALS */
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+
+/* IMPORT VIEWS */
+
+@import './views/mtb.scss';
+@import './views/running.scss';
+@import './views/nado.scss';
+@import './views/ecoParque.scss';
+@import './views/horarios.scss';
+@import './views/register.scss';
+@import './views/home.scss';
+
+/* MEDIA */
+@import './medias/media.scss';

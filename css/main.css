@@ -1,0 +1,506 @@
+/* IMPORT PARTIALS */
+.navbar {
+  background-image: url("../../img/nav.png"); }
+
+.img-logo {
+  width: 250px; }
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #84a98c; */ }
+
+.ul-container {
+  display: flex;
+  flex-direction: row; }
+
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  justify-content: flex-end; }
+
+.li-list {
+  padding: 10px; }
+
+.li-btn {
+  transition: 1s;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #31572c;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #31572c; }
+
+.li-btn:hover {
+  transition: 1s;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #31572c;
+  border-radius: 20px 0px 20px 0px;
+  background-color: #31572c; }
+
+.btn-inscription {
+  width: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center; }
+
+/* ### FOOTER ### */
+.footer-container {
+  background-color: #132a13;
+  background-image: url("../../img/footerimg.jpg");
+  color: white; }
+
+.div-footer {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.div-p-footer, .div-li-footer {
+  font-weight: bold;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.ul-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none; }
+
+.li-footer {
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 20px 0 20px; }
+
+/* IMPORT VIEWS */
+/*### MTB ###*/
+.banner-mtb {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  background-image: url("../../img/card-mtb.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+  .banner-mtb .banner-description {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .banner-mtb .banner-description .h1-banner {
+      padding: 5px;
+      font-size: 50px;
+      color: #fff;
+      border-radius: 10px; }
+    .banner-mtb .banner-description .btn-primary {
+      background-color: orangered;
+      border-color: orangered; }
+    .banner-mtb .banner-description .btn-primary:hover {
+      transition: 1s;
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered; }
+
+.div-container-mtb {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center; }
+  .div-container-mtb .div-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+.img-map {
+  width: 100%; }
+
+.btn-inscription {
+  width: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin: 50px auto 50px auto; }
+
+/*### running ###*/
+.banner-running {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  background-image: url("../../img/card-running.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+  .banner-running .banner-description {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .banner-running .banner-description .btn-primary {
+      background-color: orangered;
+      border-color: orangered; }
+    .banner-running .banner-description .btn-primary:hover {
+      transition: 1s;
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered; }
+    .banner-running .banner-description .h1-banner {
+      padding: 5px;
+      font-size: 50px;
+      color: #fff;
+      border-radius: 10px; }
+
+.div-modalidad {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.btn-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.banner-nado {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  background-image: url("../../img/carousel2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+  .banner-nado .banner-description {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .banner-nado .banner-description .btn-primary {
+      background-color: orangered;
+      border-color: orangered; }
+    .banner-nado .banner-description .btn-primary:hover {
+      transition: 1s;
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered; }
+    .banner-nado .banner-description .h1-banner {
+      padding: 5px;
+      font-size: 50px;
+      color: #fff;
+      border-radius: 10px; }
+
+.btn-primary {
+  background-color: orangered;
+  border-color: orangered; }
+
+.btn-primary:hover {
+  transition: 1s;
+  background-color: white;
+  color: orangered;
+  border: 1px solid orangered; }
+
+/*### Eco Parque ###*/
+.div-eco {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: end; }
+
+.p-eco {
+  width: 300px;
+  margin: auto;
+  padding: 10px; }
+
+/*### PAGINA HORARIOS ###*/
+.td-bold {
+  background-color: #31572c;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; }
+
+.td-italic {
+  background-color: #84a98c;
+  font-style: italic; }
+
+.table-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+/*### REGISTRATION.HTML ###*/
+.container-form {
+  max-width: 600px;
+  margin-bottom: 100px; }
+
+/*### render register ###*/
+.register-render {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+
+.render-category {
+  color: red; }
+
+form {
+  margin-bottom: 50px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* NAVAR */
+body {
+  background-color: white;
+  color: black; }
+
+body.dark-mode {
+  background-color: black;
+  color: white; }
+
+.card.dark-mode {
+  background-color: black; }
+
+#nav-dark.dark-mode {
+  background-color: black; }
+
+.section-carousel {
+  margin-bottom: 50px; }
+
+.img-carousel {
+  width: 100%; }
+
+.div-title {
+  color: white;
+  background-color: #774936;
+  text-align: center;
+  padding: 50px; }
+
+.div-subtitle {
+  text-align: center;
+  background-color: #774936;
+  padding: 50px;
+  margin-bottom: 50px; }
+  .div-subtitle .h1-subtitle {
+    color: white;
+    margin-bottom: 0px; }
+
+.section-list {
+  margin: 50px 0 50px 0; }
+
+.div-list {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 50px;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+
+.list-info {
+  margin: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.list-ul {
+  list-style-type: none;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start; }
+
+.li-lists::marker {
+  content: url("../../img/leaf.png");
+  width: 1px;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  padding-left: 0px;
+  border-bottom: 2px solid #132a13;
+  border-bottom-left-radius: 10px; }
+
+.div-border {
+  width: 1px;
+  height: 220px;
+  border: 1px solid lightgrey; }
+
+/*### Render Cards JS ###*/
+.main-container {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  margin-bottom: 50px; }
+  .main-container .div-container {
+    scroll-snap-align: start; }
+    .main-container .div-container .card {
+      width: 25rem;
+      margin: 10px; }
+
+.main-container::-webkit-scrollbar {
+  display: none; }
+
+.section-banner {
+  width: 100%; }
+
+.img-banner {
+  width: 100%; }
+
+.btn-primary2 {
+  color: white;
+  background-color: blue;
+  border-color: blue; }
+
+.banner {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  background-image: url("../../img/carr4.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+  .banner .banner-description {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .banner .banner-description .btn-primary {
+      background-color: orangered;
+      border-color: orangered; }
+    .banner .banner-description .btn-primary:hover {
+      transition: 1s;
+      background-color: white;
+      color: orangered;
+      border: 1px solid orangered; }
+    .banner .banner-description .h1-banner {
+      font-size: 50px;
+      color: #fff;
+      border-radius: 10px; }
+
+.btn-primary2:hover {
+  transition: 1s;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  color: blue; }
+
+.main-wtp {
+  height: 70px;
+  position: fixed;
+  left: 80%;
+  top: 80%;
+  transition: height 1s;
+  z-index: 50; }
+
+.info-title {
+  color: orangered;
+  background-color: #fff; }
+
+.div-img {
+  margin: 50px 0 50px 0; }
+
+/* MEDIA */
+/*## MEDIA QUIERIES ##*/
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  .div-list {
+    flex-direction: column; }
+  .div-border {
+    display: none; } }
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .navbar-brand {
+    width: 200px; }
+  .card {
+    width: 18rem;
+    margin: 10px; }
+  .ul-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .main-wtp {
+    height: 60px;
+    position: fixed;
+    left: 70%;
+    top: 80%;
+    transition: height 1s;
+    z-index: 50; }
+  .div-p-footer, p {
+    text-align: center; }
+  .ul-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .div-title {
+    font-size: 18px; }
+  .h1-subtitle {
+    font-size: 18px; }
+  .div-border {
+    display: none; }
+  .div-list {
+    flex-direction: column; }
+  .banner-mtb .banner-description .h1-banner {
+    font-size: 20px; } }

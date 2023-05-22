@@ -1,0 +1,22 @@
+/*### PAGINA HORARIOS ###*/
+
+.td-bold {
+    background-color: #31572c;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.td-italic {
+    background-color: #84a98c;
+    font-style: italic;
+}
+
+.table-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

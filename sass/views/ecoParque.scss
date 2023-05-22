@@ -1,0 +1,17 @@
+/*### Eco Parque ###*/
+
+.div-eco {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
+}
+
+.p-eco {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
