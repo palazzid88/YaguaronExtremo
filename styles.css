@@ -518,5 +518,9 @@ background-position: center;
 .h1-subtitle {
     font-size: 18px;
 }
+
+.div-border {
+    display: none;
+}
     
 }
