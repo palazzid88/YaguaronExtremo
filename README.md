@@ -2,14 +2,14 @@
 
 ## Herramientas y tecnologías aplicadas en el desarrollo ##
 
-* Se utiliza como base archivos HTML <img src="./img/html5.svg" style="width: 16px; height: auto;">, para la maquetación.
+* Se utiliza como base archivos HTML <img src="./img/html5.svg" style="width: 20px; height: auto;">, para la maquetación.
 
-* Se estila la página con CSS <img src="./img/css3.svg" style="width: 16px; height: auto;">, y BOOTSTRAP <img src="./img/bootstrap.svg" style="width: 16px; height: auto;">
-* Se compila el código CSS <img src="./img/css3.svg" style="width: 16px; height: auto;"> con SASS <img src="./img/sass.svg" style="width: 16px; height: auto;">
+* Se estila la página con CSS <img src="./img/css3.svg" style="width: 20px; height: auto;">, y BOOTSTRAP <img src="./img/bootstrap.svg" style="width: 20px; height: auto;">
+* Se compila el código CSS <img src="./img/css3.svg" style="width: 20px; height: auto;"> con SASS <img src="./img/sass.svg" style="width: 20px; height: auto;">
 * Se realiza interacción de formulario de incripción con JAVASCRIPT <img src="./img/javascript.svg" style="width: 16px; height: auto;">
 * Se renderizan cards de "modalidades" con JAVASCRIPT <img src="./img/javascript.svg" style="width: 16px; height: auto;"> a través de una promesa Fetch(), que lee un archivo JSON
-* Se ordena el código HTML  en carpetas pages <img src="./img/html.svg" style="width: 16px; height: auto;">
-* Se ordena el código SASS en carpeta sass <img src="./img/sass.svg" style="width: 16px; height: auto;">
+* Se ordena el código HTML  en carpetas pages <img src="./img/html.svg" style="width: 20px; height: auto;">
+* Se ordena el código SASS en carpeta sass <img src="./img/sass.svg" style="width: 20px; height: auto;">
     -  medias: media querys 
     -  partials: header y footer 
     -  views: estilos de c/u de las pages
