@@ -21,8 +21,7 @@
         .btn-primary {
             background-color: orangered;
             border-color: orangered;
-        }
-        
+        }        
         .btn-primary:hover {
             transition: 1s;
             background-color: white; 
@@ -45,7 +44,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .btn-info {
     display: flex;
     flex-direction: row;

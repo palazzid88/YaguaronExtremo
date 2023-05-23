@@ -15,54 +15,45 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    
+    }    
     .navbar-brand {
         width: 200px;
-    }
-    
+    }    
     .card {
         width: 18rem;
         margin: 10px;
-    }
-    
+    }    
     .ul-list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    
+    }    
     .main-wtp {
         height: 60px;
         position: fixed;
         left: 70%;
         top: 80%;
         transition: height 1s;
-        z-index: 50; }
-    
+        z-index: 50; 
+    }
     .div-p-footer, p {
         text-align: center;
     }
-    
     .ul-footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    
+    }    
     .div-title {
         font-size: 18px;
-    }
-    
+    }    
     .h1-subtitle {
         font-size: 18px;
-    }
-    
+    }    
     .div-border {
         display: none;
     }
-
     .div-list {
         flex-direction: column;
     }

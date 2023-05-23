@@ -6,21 +6,17 @@
 .img-logo {
     width: 250px;
 }
-
 .nav-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #84a98c; */
 }
-
 .ul-container {
     display: flex;
     flex-direction: row;
 }
-
 .ul-list {
     display: flex;
     flex-direction: row;
@@ -31,11 +27,9 @@
     text-decoration: none;
     justify-content: flex-end;
 }
-
 .li-list {
     padding: 10px;
 }
-
 .li-btn {
     transition: 1s;
     font-size: small;
@@ -46,7 +40,6 @@
     border-radius: 0px 20px 0px 20px;
     background-color: #31572c;
 }
-
 .li-btn:hover {
     transition: 1s;
     font-size: small;
@@ -57,7 +50,6 @@
     border-radius: 20px 0px 20px 0px;
     background-color: #31572c;
 }
-
 .btn-inscription {
     width: 100px;
     display: flex;
