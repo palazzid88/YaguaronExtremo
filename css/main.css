@@ -1,6 +1,6 @@
 /* IMPORT PARTIALS */
 .navbar {
-  background-image: url("../../img/nav.png"); }
+  background-image: url("../pages/img/nav.png"); }
 
 .img-logo {
   width: 250px; }
@@ -58,7 +58,7 @@
 /* ### FOOTER ### */
 .footer-container {
   background-color: #132a13;
-  background-image: url("../../img/footerimg.jpg");
+  background-image: url("../pages/img/footerimg.jpg");
   color: white; }
 
 .div-footer {
@@ -95,7 +95,7 @@
   width: 100%;
   height: 440px;
   display: flex;
-  background-image: url("../../img/card-mtb.jpg");
+  background-image: url("../pages/img/card-mtb.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
@@ -149,7 +149,7 @@
   width: 100%;
   height: 440px;
   display: flex;
-  background-image: url("../../img/card-running.jpg");
+  background-image: url("../pages/img/card-running.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
@@ -195,7 +195,7 @@
   width: 100%;
   height: 440px;
   display: flex;
-  background-image: url("../../img/carousel2.jpg");
+  background-image: url("../pages/img/carousel2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
@@ -355,7 +355,7 @@ body.dark-mode {
   align-items: self-start; }
 
 .li-lists::marker {
-  content: url("../../img/leaf.png");
+  content: url("../pages/img/leaf.png");
   width: 1px;
   margin: 10px;
   padding: 10px;
@@ -403,7 +403,7 @@ body.dark-mode {
   width: 100%;
   height: 440px;
   display: flex;
-  background-image: url("../../img/carr4.png");
+  background-image: url("../pages/img/carr4.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }

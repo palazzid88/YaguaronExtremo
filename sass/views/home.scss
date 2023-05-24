@@ -72,7 +72,7 @@ body.dark-mode {
     align-items: self-start;
 }
 .li-lists::marker {
-    content: url("../../img/leaf.png");
+    content: url("../pages/img/leaf.png");
     width: 1px;
     margin: 10px;
     padding: 10px;
@@ -127,7 +127,7 @@ body.dark-mode {
     width: 100%;   
     height: 440px;
     display: flex;
-    background-image: url("../../img/carr4.png");
+    background-image: url("../pages/img/carr4.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
