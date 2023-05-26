@@ -320,7 +320,7 @@ body.dark-mode {
   text-align: center;
   background-color: #774936;
   padding: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
   .div-subtitle .h1-subtitle {
     color: white;
     margin-bottom: 0px; }
@@ -369,10 +369,16 @@ body.dark-mode {
   height: 220px;
   border: 1px solid lightgrey; }
 
-.p-slider {
+.p-slider1, .p-slider2 {
   font-style: italic;
   color: gray;
-  animation: shakeX 1s; }
+  animation: shakeX 1s;
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+.ocultar {
+  opacity: 0;
+  margin: 0px !important; }
 
 /*### Render Cards JS ###*/
 .main-container {
@@ -382,7 +388,7 @@ body.dark-mode {
   overflow-y: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
-  scrollbar-width: auto;
+  scrollbar-width: none;
   margin-bottom: 50px; }
   .main-container .div-container {
     scroll-snap-align: start; }

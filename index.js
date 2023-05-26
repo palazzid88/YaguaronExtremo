@@ -1,5 +1,17 @@
 let contenedor = document.getElementById('main-container')
 
+// función para ocultar el <p> de linea 100 y 101 de index.html
+window.addEventListener('load', ()=> {
+    let pslider1 = document.getElementById("p-slider1");
+    let pslider2 = document.getElementById("p-slider2");
+
+    setTimeout(()=> {
+        pslider1.classList.add("ocultar");
+        pslider2.classList.add("ocultar")
+    }, 5000)
+})
+
+// fetch de req res a data.json
 fetchCards();
 
 function fetchCards() {
