@@ -1,13 +1,18 @@
 /*## MEDIA QUIERIES ##*/
 
-@media screen and (min-width: 480px) and (max-width: 720px) {
+@media screen and (min-width: 480px) and (max-width: 780px) {
     .div-list {
         flex-direction: column;
     }
-
     .div-border {
         display: none;
     }
+    .p-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+      }
 }
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
@@ -64,4 +69,7 @@
             }
         }
     }
+    .p-slider {
+        display: block;
+      }
 }

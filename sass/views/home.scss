@@ -87,6 +87,11 @@ body.dark-mode {
     border: 1px solid lightgrey;
 }
 
+.p-slider {
+    font-style: italic;
+    color: gray;
+    animation: shakeX 1s;
+}
 
 /*### Render Cards JS ###*/
 
@@ -94,10 +99,10 @@ body.dark-mode {
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;
-    overflow-y: auto;
+    overflow-y: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    scrollbar-width: none;
+    scrollbar-width: auto;
     margin-bottom: 50px;
     .div-container {
         scroll-snap-align: start;

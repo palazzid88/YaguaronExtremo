@@ -369,15 +369,20 @@ body.dark-mode {
   height: 220px;
   border: 1px solid lightgrey; }
 
+.p-slider {
+  font-style: italic;
+  color: gray;
+  animation: shakeX 1s; }
+
 /*### Render Cards JS ###*/
 .main-container {
   display: grid;
   grid-auto-flow: column;
   gap: 1rem;
-  overflow-y: auto;
+  overflow-y: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
-  scrollbar-width: none;
+  scrollbar-width: auto;
   margin-bottom: 50px; }
   .main-container .div-container {
     scroll-snap-align: start; }
@@ -460,11 +465,16 @@ a:hover {
 
 /* MEDIA */
 /*## MEDIA QUIERIES ##*/
-@media screen and (min-width: 480px) and (max-width: 720px) {
+@media screen and (min-width: 480px) and (max-width: 780px) {
   .div-list {
     flex-direction: column; }
   .div-border {
-    display: none; } }
+    display: none; }
+  .p-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px; } }
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
   .nav-container {
@@ -503,4 +513,6 @@ a:hover {
   .div-list {
     flex-direction: column; }
   .banner-mtb .banner-description .h1-banner {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .p-slider {
+    display: block; } }
