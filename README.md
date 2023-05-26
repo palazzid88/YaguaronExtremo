@@ -2,21 +2,21 @@
 
 ## Hola, soy David Palazzi! ##
 
-<img src=".pages/img/profile.png" style="width: 100px; heigth: auto;">
+<img src="./pages/img/profile.png" style="width: 100px; heigth: auto;">
  
 * Te invito a ver mi proyecto de Revolución digital SN!
 
 
 ## Herramientas y tecnologías aplicadas en el desarrollo ##
 
-* Se utiliza como base archivos HTML <img src=".pages/img/html5.svg" style="width: 20px; height: auto;">, para la maquetación.
+* Se utiliza como base archivos HTML <img src="./pages/img/html5.svg" style="width: 20px; height: auto;">, para la maquetación.
 
-* Se estila la página con CSS <img src=".pages/img/css3.svg" style="width: 20px; height: auto;">, y BOOTSTRAP <img src=".pages/img/bootstrap.svg" style="width: 20px; height: auto;">
-* Se compila el código CSS <img src=".pages/img/css3.svg" style="width: 20px; height: auto;"> con SASS <img src=".pages/img/sass.svg" style="width: 20px; height: auto;">
-* Se realiza interacción de formulario de incripción con JAVASCRIPT <img src=".pages/img/javascript.svg" style="width: 16px; height: auto;">
-* Se renderizan cards de "modalidades" con JAVASCRIPT <img src=".pages/img/javascript.svg" style="width: 16px; height: auto;"> a través de una promesa Fetch(), que lee un archivo JSON
-* Se ordena el código HTML  en carpetas pages <img src=".pages/img/html.svg" style="width: 20px; height: auto;">
-* Se ordena el código SASS en carpeta sass <img src=".pages/img/sass.svg" style="width: 20px; height: auto;">
+* Se estila la página con CSS <img src="./pages/img/css3.svg" style="width: 20px; height: auto;">, y BOOTSTRAP <img src="./pages/img/bootstrap.svg" style="width: 20px; height: auto;">
+* Se compila el código CSS <img src="./pages/img/css3.svg" style="width: 20px; height: auto;"> con SASS <img src="./pages/img/sass.svg" style="width: 20px; height: auto;">
+* Se realiza interacción de formulario de incripción con JAVASCRIPT <img src="./pages/img/javascript.svg" style="width: 16px; height: auto;">
+* Se renderizan cards de "modalidades" con JAVASCRIPT <img src="./pages/img/javascript.svg" style="width: 16px; height: auto;"> a través de una promesa Fetch(), que lee un archivo JSON
+* Se ordena el código HTML  en carpetas pages <img src="./pages/img/html.svg" style="width: 20px; height: auto;">
+* Se ordena el código SASS en carpeta sass <img src="./pages/img/sass.svg" style="width: 20px; height: auto;">
     -  medias: media querys 
     -  partials: header y footer 
     -  views: estilos de c/u de las pages
@@ -25,7 +25,7 @@
 * En data/data.json Se encuentra el json con el array de objetos en texto plano de las cards
 * app.js contiene la lógica del formulario de registro
 * index.js contiene la promeza y el render por js a html de las cards
-* Se utiliza GIT <img src=".pages/img/git.svg" style="width: 16px; height: auto;"> para el control de versiones y actualización y seguimiento del sitio
+* Se utiliza GIT <img src="./pages/img/git.svg" style="width: 16px; height: auto;"> para el control de versiones y actualización y seguimiento del sitio
 * se utiliza npm como gestor de paquetes de código como por ejemplo:
     -  moment (librería para cálculo de la edad de la persona, en base a su fecha de nac)
     -  node-sass ( para compilar el código css)
@@ -39,7 +39,7 @@
 
 #Yaguarón Extremo#
 
-* Será un pagína de actividades recreativas tales como:
+* Será un pagína de actividades competitivas tales como:
 
     - Running
     - Mountain Bike
@@ -62,5 +62,6 @@ https://palazzid88.github.io/revolucion-digital-sn/
 
 * Whatsapp: https://wa.link/oqm6hb
 * GitHub: https://github.com/palazzid88
+* Linkedin: https://www.linkedin.com/in/david-e-palazzi/
 
 
