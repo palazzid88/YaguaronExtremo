@@ -234,19 +234,52 @@
   border: 1px solid orangered; }
 
 /*### Eco Parque ###*/
+.main-eco-parque {
+  background-image: url("../pages/img/fondo.png");
+  background-size: contain; }
+
 .div-eco {
+  margin: auto;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: end; }
+  align-content: end;
+  margin: 50px 0 50px 0; }
 
 .p-eco {
   width: 300px;
   margin: auto;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px; }
+
+.eco-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.img-eco-parque {
+  width: 100%;
+  max-width: 645px; }
+
+.div-info-eco {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 80px; }
+
+.h2-img {
+  padding: 20px;
+  color: orangered;
+  font-size: 60px;
+  font: bold; }
 
 /*### PAGINA HORARIOS ###*/
 .td-bold {

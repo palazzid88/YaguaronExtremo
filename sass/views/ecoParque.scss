@@ -1,6 +1,11 @@
 /*### Eco Parque ###*/
+.main-eco-parque {
+    background-image: url("../pages/img/fondo.png");
+    background-size:contain;
+}
 
 .div-eco {
+    margin: auto;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
@@ -8,9 +13,43 @@
     justify-content: center;
     align-items: center;
     align-content: end;
+    margin: 50px 0 50px 0;
 }
 .p-eco {
     width: 300px;
     margin: auto;
     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.eco-img {
+    // background-image: url("../pages/img/carr4.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-eco-parque {
+    width: 100%;
+    max-width: 645px;
+    // margin: 50px;
+}
+
+.div-info-eco {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.h2-img {
+    padding: 20px;
+    color: orangered;
+    font-size: 60px;
+    font: bold;
+
 }

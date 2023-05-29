@@ -4,44 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <nav class="nav-container">
-            <div>
-                <a href="../index.html">
-                    <img class="navbar-brand animate__animated animate__backInLeft" src="../pages/img/logoed.png">
-                  </a>
-                </div>
-            <div class="ul-container">
-                <ul class="ul-list">
-                    <li class="li-list"><a href="../index.html" class="li-btn">Inicio</a></li>                                
-                    <li class="li-list"><a href="contacto.html" class="li-btn">Contacto</a></li>
-                    <li class="li-list"><a href="horarios.html" class="li-btn">Horarios de atención</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav-dark">
+            <div class="container-fluid">
+              <a href="./index.html">
+                <img class="navbar-brand animate__animated animate__backInLeft" src="../pages/img/logoed.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class=" ms-auto ul-list">
+                  <li class=" li-list">
+                    <a class="li-btn" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="li-list">
+                    <a class="li-btn" href="./pages/ecoParque.html">Eco Parque</a>
+                  </li>
+                  <li class="li-list">
+                    <a class="li-btn" href="./pages/horarios.html">Horarios de atención</a>
+                  </li>
                 </ul>
+                <div id="modo-contenedor">
+                  <!-- Icono de modo claro -->
+                  <i id="modo-claro" class="fas fa-sun"></i>          
+                  <!-- Icono de modo oscuro -->
+                  <i id="modo-oscuro" class="fas fa-moon"></i>
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
-
-    <main>
+    <main class="main-eco-parque">
         <div>
             <div class="div-eco">
                 <iframe width="713" height="401" src="https://www.youtube.com/embed/oth3DJ8RJqU" title="TURISMO - Descubrí San Nicolás" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <!-- <iframe width="560" height="315" src="<iframe width="713" height="401" src="https://www.youtube.com/embed/KJse2x1VmAw" title="Cycling Motivation  | MTB Motivation |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe> -->
-                <!-- <iframe width="713" height="401" src="https://www.youtube.com/embed/KJse2x1VmAw" title="Cycling Motivation  | MTB Motivation |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                 <p class="p-eco">
                     Todos los días, de 07:00 a 21:00, el Eco Parque San Nicolás está abierto para que lo visites y disfrutes. Vas a encontrar cartelería para aprender sobre el entorno del parque, conocer historias y leyendas de algunas de las especies nativas que hacen único a este lugar y rodearte de naturaleza.
                     También, hay actividades para compartir en familia. Podés alquilar bicicletas, tablas de SUP y kayaks.
                     ¡Vení y viví una experiencia distinta en cada visita!
                 </p>
-                <img src="../img/eco7.webp" alt="">
+                <!-- <img src="../img/eco7.webp" alt=""> -->
             </div>
-            <img src="../img/eco12.webp" alt="">
-            <img src="../img/eco6.webp" alt="">
-            <img src="../img/eco4.jfif" alt="">
-            <img src="../img/eco1.webp" alt="">
+            <div class="eco-img">
+                <div class="div-info-eco">
+                    <img src="../pages/img/eco2.png" alt="" class="img-eco-parque">
+                    <h2 class="h2-img">viví naturaleza</h2>
+                </div>
+                <div class="div-info-eco">
+                    <h2 class="h2-img">Viví deporte</h2>
+                    <img src="../pages/img/eco1 1.png" alt="" class="img-eco-parque">
+                </div>
+                <div class="div-info-eco">
+                    <img src="../pages/img/eco3.png" alt="" class="img-eco-parque">
+                    <h2 class="h2-img">Viví aventura</h2>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer-container">
@@ -50,7 +77,6 @@
                 <p>Todos los derechos reservados a Desafío Yaguarón</p>
                 <p>revolución digital - animate a programar</p>
                 <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
-
             </div>
             <div class="div-li-footer">
                 <ul class="ul-footer">
@@ -61,6 +87,8 @@
             </div>           
         </div>
     </footer>
-    
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
