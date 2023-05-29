@@ -285,6 +285,17 @@
 form {
   margin-bottom: 50px; }
 
+.div-conditions {
+  display: flex;
+  flex-direction: row; }
+
+.p-conditions {
+  margin-right: 10px; }
+
+.a-conditions {
+  color: blue;
+  text-decoration: underline; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -471,12 +482,16 @@ a:hover {
 
 /* MEDIA */
 /*## MEDIA QUIERIES ##*/
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (min-width: 780px) and (max-width: 2440px) {
+  .p-slider1, .p-slider2 {
+    display: none; } }
+
+@media screen and (min-width: 480px) and (max-width: 779px) {
   .div-list {
     flex-direction: column; }
   .div-border {
     display: none; }
-  .p-slider {
+  .p-slider1, .p-slider2 {
     display: flex;
     align-items: center;
     justify-content: center;

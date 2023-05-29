@@ -19,3 +19,17 @@
 form{
     margin-bottom: 50px;
 }
+
+.div-conditions {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-conditions {
+    margin-right: 10px;
+}
+
+.a-conditions {
+    color: blue;
+    text-decoration: underline;
+}

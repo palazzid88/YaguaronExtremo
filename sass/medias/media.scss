@@ -1,13 +1,20 @@
 /*## MEDIA QUIERIES ##*/
 
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (min-width: 780px) and (max-width: 2440px) {
+    .p-slider1, .p-slider2 {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 779px) {
     .div-list {
         flex-direction: column;
     }
     .div-border {
         display: none;
     }
-    .p-slider {
+    .p-slider1, .p-slider2 {
         display: flex;
         align-items: center;
         justify-content: center;
