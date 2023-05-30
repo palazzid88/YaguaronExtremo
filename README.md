@@ -2,7 +2,7 @@
 
 ## Hola, soy David Palazzi! ##
 
-<img src="./pages/img/profile.png" style="width: 100px; heigth: auto;">
+<img src="./pages/img/profile1.png" style="width: 100px; heigth: auto;">
  
 * Te invito a ver mi proyecto de Revolución digital SN!
 
@@ -48,8 +48,10 @@
 * Vinculadas al entorno de nuestro amado Arroyo Yaguarón
 
 * Dentro del citio web se podrá navegar sobre las distintas actividades, con sus respectivas modalidades y  categorías
-Contendrá imágenes del Eco Parque, "algúna de las imágenes se tomaron del sitio web: https://www.matildepizzorno.com/ecoparquesannicolas
+* Contendrá imágenes del Eco Parque, "algúna de las imágenes se tomaron del sitio web: https://www.matildepizzorno.com/ecoparquesannicolas
 
+# Nota de aclaración: 
+En este proyecto educativo de programación, se han utilizado imágenes y fotos de diversas marcas con fines puramente educativos. Se deja en claro que no tenemos ninguna relación con estas marcas, ni somos auspiciantes ni patrocinadores de las mismas. Las imágenes y fotos se han utilizado únicamente con el propósito de ejemplificar y demostrar el uso de las tecnologías aprendidas en el curso. No se pretende infringir ningún derecho de propiedad intelectual y se respeta plenamente la autoría y propiedad de las marcas mencionadas. 
 
 ### Deploy del sitio web:
 https://palazzid88.github.io/revolucion-digital-sn/
