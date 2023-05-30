@@ -235,8 +235,8 @@
 
 /*### Eco Parque ###*/
 .main-eco-parque {
-  background-image: url("../pages/img/fondo.png");
-  background-size: contain; }
+  background-image: url("../pages/img/nav.png");
+  background-size: auto; }
 
 .div-eco {
   margin: auto;
@@ -250,12 +250,14 @@
   margin: 50px 0 50px 0; }
 
 .p-eco {
+  color: #6c7c59;
   width: 300px;
   margin: auto;
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 20px; }
+  padding: 20px;
+  background-color: #EDE6E0; }
 
 .eco-img {
   display: flex;
@@ -264,7 +266,8 @@
 
 .img-eco-parque {
   width: 100%;
-  max-width: 645px; }
+  max-width: 645px;
+  border: 5px solid #132a13; }
 
 .div-info-eco {
   display: flex;
@@ -282,15 +285,16 @@
   font: bold; }
 
 /*### PAGINA HORARIOS ###*/
-.td-bold {
-  background-color: #31572c;
-  color: white;
-  font-weight: bold;
-  font-size: 20px; }
-
-.td-italic {
-  background-color: #84a98c;
-  font-style: italic; }
+.section-contact {
+  margin: 80px 20px 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center; }
+  .section-contact .div-iframe iframe {
+    width: 600px;
+    height: 450px; }
 
 .table-container {
   margin: auto;
@@ -298,7 +302,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  width: 45%; }
 
 /*### REGISTRATION.HTML ###*/
 .container-form {
@@ -513,6 +518,17 @@ a:hover {
 .div-img {
   margin: 50px 0 50px 0; }
 
+.sponsors .div-sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: grey; }
+  .sponsors .div-sponsors .img-sponsors {
+    width: 80px;
+    margin: 10px; }
+
 /* MEDIA */
 /*## MEDIA QUIERIES ##*/
 @media screen and (min-width: 780px) and (max-width: 2440px) {
@@ -569,4 +585,9 @@ a:hover {
   .banner-mtb .banner-description .h1-banner {
     font-size: 20px; }
   .p-slider {
-    display: block; } }
+    display: block; }
+  .table-container {
+    font-size: 8px; }
+  .section-contact .div-iframe iframe {
+    width: 300px;
+    height: 250px; } }

@@ -1,14 +1,20 @@
 /*### PAGINA HORARIOS ###*/
-
-.td-bold {
-    background-color: #31572c;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-.td-italic {
-    background-color: #84a98c;
-    font-style: italic;
+.section-contact{
+    margin: 80px 20px 80px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    .div-iframe{
+        iframe{
+            width: 600px;
+            height: 450px;
+        }
+    }
+    // .section-contact{
+    //     width: 45%;
+    // }
 }
 .table-container {
     margin: auto;
@@ -17,4 +23,5 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 45%;
 }

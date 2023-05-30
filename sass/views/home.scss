@@ -197,3 +197,18 @@ a:hover {
 .div-img {
     margin: 50px 0 50px 0;
 }
+
+.sponsors{
+    .div-sponsors{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color:grey;
+        .img-sponsors{
+            width: 80px;
+            margin: 10px;
+        }
+    }
+}

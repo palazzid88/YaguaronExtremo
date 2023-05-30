@@ -4,87 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/main.css">
     <title>Horarios de atención</title>
 </head>
 <body>
-    <header>
-      <nav class="nav-container">
-          <div>
-            <a href="../index.html">
-              <img class="navbar-brand" src="../img/logo2.png">
-            </a>
-        </div>
-          <div class="ul-container">
-              <ul class="ul-list">
-                  <li class="li-list"><a href="../index.html" class="li-btn">Inicio</a></li>                               
-                  <li class="li-list"><a href="./contacto.html" class="li-btn">Contacto</a></li>
-                  <li class="li-list"><a href="./pages/horarios.html" class="li-btn">Horarios de atención</a></li>
-              </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav-dark">
+        <div class="container-fluid">
+          <a href="./index.html">
+            <img class="navbar-brand animate__animated animate__backInLeft" href="../index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class=" ms-auto ul-list">
+              <li class=" li-list">
+                <a class="li-btn" href="../index.html">Inicio</a>
+              </li>
+              <li class="li-list">
+                <a class="li-btn" href="../pages/ecoParque.html">Eco Parque</a>
+              </li>
+              <li class="li-list">
+                <a class="li-btn" href="./">Horarios de atención</a>
+              </li>
+            </ul>
+            <div id="modo-contenedor">
+              <!-- Icono de modo claro -->
+              <i id="modo-claro" class="fas fa-sun"></i>
+            
+              <!-- Icono de modo oscuro -->
+              <i id="modo-oscuro" class="fas fa-moon"></i>
+            </div>
           </div>
+        </div>
       </nav>
-  </header>
-
+</header>
   <main>
-        <div>
-            <table class="table-container">
-                <thead>
-                  <tr>
-                    <th class="td-bold">Día</th>
-                    <th class="td-bold">Horario de atención</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                  <tr>
-                    <td class="td-bold">Lunes</td>
-                    <td class="td-italic">9:00am - 5:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Martes</td>
-                    <td class="td-italic">9:00am - 5:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Miércoles</td>
-                    <td class="td-italic">9:00am - 5:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Jueves</td>
-                    <td class="td-italic">9:00am - 5:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Viernes</td>
-                    <td class="td-italic">9:00am - 5:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Sábado</td>
-                    <td class="td-italic">10:00am - 2:00pm</td>
-                  </tr>
-                  <tr>
-                    <td class="td-bold">Domingo</td>
-                    <td class="td-italic">Cerrado</td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-        <footer class="footer-container">
-          <div class="div-footer">
-              <div class="div-p-footer">
-                  <p>Todos los derechos reservados a Desafío Yaguarón</p>
-                  <p>revolución digital - animate a programar</p>
-                  <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
-
-              </div>
-              <div class="div-li-footer">
-                  <ul class="ul-footer">
-                      <li class="li-footer">Palazzi, David E</li>
-                      <li class="li-footer">email: palazzid88@gmail.com</li>
-                      <li class="li-footer">(0336) 154309084</li>
-                  </ul>
-              </div>           
+    <section class="section-contact">
+      <table class="table table-container table-container">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Día</th>
+            <th scope="col">Horario de atención</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>9:00am - 5:00pm</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>10:00am - 2:00pm</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>Cerrado</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="div-iframe">
+        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.290127335124!2d-60.231874726204154!3d-33.31122979039257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76728473d93ab%3A0x2e406076166cac2a!2sEco%20Parque%20San%20Nicol%C3%A1s!5e0!3m2!1ses-419!2sar!4v1685416726877!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="div-footer">
+          <div class="div-p-footer">
+              <p>Todos los derechos reservados a Desafío Yaguarón</p>
+              <p>revolución digital - animate a programar</p>
+              <p>este sitio web se a creado a modo de capacitación por el desarrollador</p>
           </div>
-      </footer>
-    </main>
+          <div class="div-li-footer">
+              <ul class="ul-footer">
+                  <li class="li-footer">Palazzi, David E</li>
+                  <li class="li-footer">email: palazzid88@gmail.com</li>
+                  <li class="li-footer">(0336) 154309084</li>
+              </ul>
+          </div>           
+      </div>
+  </footer>
+  </main>
 
     
 </body>

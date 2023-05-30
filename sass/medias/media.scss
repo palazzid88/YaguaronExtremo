@@ -79,4 +79,15 @@
     .p-slider {
         display: block;
       }
+    .table-container{
+        font-size: 8px;
+    }
+    .section-contact{
+        .div-iframe{
+            iframe{
+                width: 300px;
+                height: 250px;
+            }
+        }
+    }
 }
