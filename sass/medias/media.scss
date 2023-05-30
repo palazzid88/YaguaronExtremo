@@ -1,8 +1,19 @@
 /*## MEDIA QUIERIES ##*/
 
-@media screen and (min-width: 780px) and (max-width: 2440px) {
+@media screen and (min-width: 1024px) and (max-width: 2440px) {
     .p-slider1, .p-slider2 {
         display: none;
+    }
+    
+}
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+    .p-slider1, .p-slider2 {
+        display: none;
+    }
+    .iframe{
+        width: 700px;
+        height: 300px;
     }
 }
 
@@ -20,6 +31,30 @@
         justify-content: center;
         margin-bottom: 0px;
       }
+    .main-eco-parque{
+        .div-eco{
+            .iframe{
+                width: 600px;
+                height: 350px;
+            }
+            .p-eco{
+                width: 650px;
+            }
+        }
+        .eco-img{
+            .div-info-eco{
+                .h2-img{
+                    font-size: 30px;
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+
+    .iframe{
+        width: 400px;
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
@@ -87,6 +122,26 @@
             iframe{
                 width: 300px;
                 height: 250px;
+            }
+        }
+    }
+    .main-eco-parque{
+        .div-eco{
+            .iframe{
+                width: 310px;
+                height: 170px;
+            }
+        }
+        .eco-img{
+            .div-info-eco{
+                .h2-img{
+                    font-size: 30px;
+                    transform: rotate(0deg);
+                }
+            }
+            .div-info-eco2{
+                display: flex;
+                flex-direction: row-reverse;
             }
         }
     }

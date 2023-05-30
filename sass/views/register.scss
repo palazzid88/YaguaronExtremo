@@ -23,13 +23,14 @@ form{
 .div-conditions {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .p-conditions {
+        margin-right: 10px;
+    }
+    .a-conditions {
+        color: blue;
+        text-decoration: underline;
+    }
 }
 
-.p-conditions {
-    margin-right: 10px;
-}
-
-.a-conditions {
-    color: blue;
-    text-decoration: underline;
-}

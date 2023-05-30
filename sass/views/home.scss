@@ -44,47 +44,49 @@ body.dark-mode {
 }
 .section-list {
     margin: 50px 0 50px 0;
-}
-.div-list {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding: 50px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-.list-info {
-    margin: 10px;
-    width: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-.list-ul {
-    list-style-type: none;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-}
-.li-lists::marker {
-    content: url("../pages/img/leaf.png");
-    width: 1px;
-    margin: 10px;
-    padding: 10px;
-    list-style: none;
-    padding-left: 0px;
-    border-bottom: 2px solid #132a13;
-    border-bottom-left-radius: 10px;
-} 
-.div-border {
-    width: 1px;
-    height: 220px;
-    border: 1px solid lightgrey;
+    .div-list {
+        background-image: url("../pages/img/nav.png");
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 50px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .list-info {
+            margin: 10px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            .list-ul {
+                list-style-type: none;
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: self-start;
+            }
+            .li-lists::marker {
+                content: url("../pages/img/leaf.png");
+                width: 1px;
+                margin: 10px;
+                padding: 10px;
+                list-style: none;
+                padding-left: 0px;
+                border-bottom: 2px solid #132a13;
+                border-bottom-left-radius: 10px;
+            } 
+        }
+        .div-border {
+            width: 1px;
+            height: 220px;
+            border: 1px solid lightgrey;
+        }
+    }
 }
 .p-slider1, .p-slider2 {
     font-style: italic;
@@ -117,7 +119,6 @@ body.dark-mode {
         }     
     }
 }
-
 
 .main-container::-webkit-scrollbar {
     display: none;
@@ -192,7 +193,9 @@ a:hover {
 }
 .info-title {
     color: orangered;
-    background-color: #fff;
+    font-size: 30px;
+    font: bold;
+    // background-color: #fff;
 }
 .div-img {
     margin: 50px 0 50px 0;

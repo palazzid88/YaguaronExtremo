@@ -2,60 +2,69 @@
 .main-eco-parque {
     background-image: url("../pages/img/nav.png");
     background-size: auto;
-}
+    max-width: 1440px;
+    margin: auto;
+    .div-eco {
+        margin: auto;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: end;
+        // margin: 50px 10px 50px 10px;
+        .iframe{
+            width: 1100px;
+            height: 619px;
+        }
+        .p-eco {
+            color: #6c7c59;
+            // width: 45%;
+            margin: auto;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #EDE6E0;
+            // border: 5px solid #132a13     
+        }
+    }
+    .eco-img{
+        .div-info-eco {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 80px;
+            .img-eco-parque {
+                width: 100%;
+                max-width: 645px;
+                // margin: 50px;
+                border: 5px solid #132a13
+            }
+            .h2-img {
+                padding: 20px;
+                color: orangered;
+                font-size: 50px;
+                font: bold;
+                display: inline-block;
+                transform: rotate(90deg);
+            }
+        }
+        .div-info-eco2{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 80px;
+        }
+    }
 
-.div-eco {
-    margin: auto;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: end;
-    margin: 50px 0 50px 0;
-}
-.p-eco {
-    color: #6c7c59;
-    width: 300px;
-    margin: auto;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #EDE6E0;
-    // border: 5px solid #132a13
     
-}
-
-.eco-img {
-    // background-image: url("../pages/img/carr4.png");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-eco-parque {
-    width: 100%;
-    max-width: 645px;
-    // margin: 50px;
-    border: 5px solid #132a13
-}
-
-.div-info-eco {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 80px;
-}
-.h2-img {
-    padding: 20px;
-    color: orangered;
-    font-size: 60px;
-    font: bold;
-
 }
 

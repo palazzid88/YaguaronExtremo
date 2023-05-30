@@ -236,53 +236,55 @@
 /*### Eco Parque ###*/
 .main-eco-parque {
   background-image: url("../pages/img/nav.png");
-  background-size: auto; }
-
-.div-eco {
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: end;
-  margin: 50px 0 50px 0; }
-
-.p-eco {
-  color: #6c7c59;
-  width: 300px;
-  margin: auto;
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #EDE6E0; }
-
-.eco-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.img-eco-parque {
-  width: 100%;
-  max-width: 645px;
-  border: 5px solid #132a13; }
-
-.div-info-eco {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 80px; }
-
-.h2-img {
-  padding: 20px;
-  color: orangered;
-  font-size: 60px;
-  font: bold; }
+  background-size: auto;
+  max-width: 1440px;
+  margin: auto; }
+  .main-eco-parque .div-eco {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: end; }
+    .main-eco-parque .div-eco .iframe {
+      width: 1100px;
+      height: 619px; }
+    .main-eco-parque .div-eco .p-eco {
+      color: #6c7c59;
+      margin: auto;
+      padding: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #EDE6E0; }
+  .main-eco-parque .eco-img .div-info-eco {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px; }
+    .main-eco-parque .eco-img .div-info-eco .img-eco-parque {
+      width: 100%;
+      max-width: 645px;
+      border: 5px solid #132a13; }
+    .main-eco-parque .eco-img .div-info-eco .h2-img {
+      padding: 20px;
+      color: orangered;
+      font-size: 50px;
+      font: bold;
+      display: inline-block;
+      transform: rotate(90deg); }
+  .main-eco-parque .eco-img .div-info-eco2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px; }
 
 /*### PAGINA HORARIOS ###*/
 .section-contact {
@@ -325,14 +327,14 @@ form {
 
 .div-conditions {
   display: flex;
-  flex-direction: row; }
-
-.p-conditions {
-  margin-right: 10px; }
-
-.a-conditions {
-  color: blue;
-  text-decoration: underline; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .div-conditions .p-conditions {
+    margin-right: 10px; }
+  .div-conditions .a-conditions {
+    color: blue;
+    text-decoration: underline; }
 
 * {
   margin: 0;
@@ -376,47 +378,44 @@ body.dark-mode {
 
 .section-list {
   margin: 50px 0 50px 0; }
-
-.div-list {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 50px;
-  justify-content: center;
-  align-content: center;
-  align-items: center; }
-
-.list-info {
-  margin: 10px;
-  width: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center; }
-
-.list-ul {
-  list-style-type: none;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: self-start; }
-
-.li-lists::marker {
-  content: url("../pages/img/leaf.png");
-  width: 1px;
-  margin: 10px;
-  padding: 10px;
-  list-style: none;
-  padding-left: 0px;
-  border-bottom: 2px solid #132a13;
-  border-bottom-left-radius: 10px; }
-
-.div-border {
-  width: 1px;
-  height: 220px;
-  border: 1px solid lightgrey; }
+  .section-list .div-list {
+    background-image: url("../pages/img/nav.png");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    .section-list .div-list .list-info {
+      margin: 10px;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center; }
+      .section-list .div-list .list-info .list-ul {
+        list-style-type: none;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start; }
+      .section-list .div-list .list-info .li-lists::marker {
+        content: url("../pages/img/leaf.png");
+        width: 1px;
+        margin: 10px;
+        padding: 10px;
+        list-style: none;
+        padding-left: 0px;
+        border-bottom: 2px solid #132a13;
+        border-bottom-left-radius: 10px; }
+    .section-list .div-list .div-border {
+      width: 1px;
+      height: 220px;
+      border: 1px solid lightgrey; }
 
 .p-slider1, .p-slider2 {
   font-style: italic;
@@ -513,7 +512,8 @@ a:hover {
 
 .info-title {
   color: orangered;
-  background-color: #fff; }
+  font-size: 30px;
+  font: bold; }
 
 .div-img {
   margin: 50px 0 50px 0; }
@@ -531,9 +531,16 @@ a:hover {
 
 /* MEDIA */
 /*## MEDIA QUIERIES ##*/
-@media screen and (min-width: 780px) and (max-width: 2440px) {
+@media screen and (min-width: 1024px) and (max-width: 2440px) {
   .p-slider1, .p-slider2 {
     display: none; } }
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+  .p-slider1, .p-slider2 {
+    display: none; }
+  .iframe {
+    width: 700px;
+    height: 300px; } }
 
 @media screen and (min-width: 480px) and (max-width: 779px) {
   .div-list {
@@ -544,7 +551,18 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+  .main-eco-parque .div-eco .iframe {
+    width: 600px;
+    height: 350px; }
+  .main-eco-parque .div-eco .p-eco {
+    width: 650px; }
+  .main-eco-parque .eco-img .div-info-eco .h2-img {
+    font-size: 30px;
+    transform: rotate(0deg); }
+  .iframe {
+    width: 400px;
+    height: 200px; } }
 
 @media screen and (min-width: 300px) and (max-width: 479px) {
   .nav-container {
@@ -590,4 +608,13 @@ a:hover {
     font-size: 8px; }
   .section-contact .div-iframe iframe {
     width: 300px;
-    height: 250px; } }
+    height: 250px; }
+  .main-eco-parque .div-eco .iframe {
+    width: 310px;
+    height: 170px; }
+  .main-eco-parque .eco-img .div-info-eco .h2-img {
+    font-size: 30px;
+    transform: rotate(0deg); }
+  .main-eco-parque .eco-img .div-info-eco2 {
+    display: flex;
+    flex-direction: row-reverse; } }

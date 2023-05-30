@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <script src="ruta/aos.js"></script>
+    <link rel="stylesheet" href="ruta/aos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="./img/icon2.png">
     <link rel="stylesheet" href="../css/main.css">
     <title>Contacto</title>
 </head>
@@ -17,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="nav-dark">
             <div class="container-fluid">
               <a href="./index.html">
-                <img class="navbar-brand animate__animated animate__backInLeft" href="../pages/img/logoed.png">
+                <img class="navbar-brand animate__animated animate__backInLeft" src="../pages/img/logoed.png">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,48 +32,52 @@
                     <a class="li-btn" href="../index.html">Inicio</a>
                   </li>
                   <li class="li-list">
-                    <a class="li-btn" href="./pages/ecoParque.html">Eco Parque</a>
+                    <a class="li-btn" href="./ecoParque.html">Eco Parque</a>
                   </li>
                   <li class="li-list">
-                    <a class="li-btn" href="./pages/horarios.html">Horarios de atención</a>
+                    <a class="li-btn" href="./horarios.html">Horarios de atención</a>
                   </li>
                 </ul>
-                <div id="modo-contenedor">
-                  <!-- Icono de modo claro -->
-                  <i id="modo-claro" class="fas fa-sun"></i>          
-                  <!-- Icono de modo oscuro -->
-                  <i id="modo-oscuro" class="fas fa-moon"></i>
-                </div>
               </div>
             </div>
           </nav>
     </header>
     <main class="main-eco-parque">
-        <div>
-            <div class="div-eco">
-                <iframe width="713" height="401" src="https://www.youtube.com/embed/oth3DJ8RJqU" title="TURISMO - Descubrí San Nicolás" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p class="p-eco">
-                    Todos los días, de 07:00 a 21:00, el Eco Parque San Nicolás está abierto para que lo visites y disfrutes. Vas a encontrar cartelería para aprender sobre el entorno del parque, conocer historias y leyendas de algunas de las especies nativas que hacen único a este lugar y rodearte de naturaleza.
-                    También, hay actividades para compartir en familia. Podés alquilar bicicletas, tablas de SUP y kayaks.
-                    ¡Vení y viví una experiencia distinta en cada visita!
-                </p>
-                <!-- <img src="../img/eco7.webp" alt=""> -->
+      <div class="div-eco">
+        <!-- <iframe class="iframe" src="https://www.youtube.com/embed/oth3DJ8RJqU" title="TURISMO - Descubrí San Nicolás" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        <iframe class="iframe" src="https://www.youtube.com/embed/oth3DJ8RJqU" title="TURISMO - Descubrí San Nicolás" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
+        <p class="p-eco">
+          Todos los días, de 07:00 a 21:00, el Eco Parque San Nicolás está abierto para que lo visites y disfrutes. Vas a encontrar cartelería para aprender sobre el entorno del parque, conocer historias y leyendas de algunas de las especies nativas que hacen único a este lugar y rodearte de naturaleza.
+          También, hay actividades para compartir en familia. Podés alquilar bicicletas, tablas de SUP y kayaks.
+          ¡Vení y viví una experiencia distinta en cada visita!
+        </p>
+      </div>
+      <div class="eco-img">
+          <div class="div-info-eco">
+            <div data-aos="fade-right">
+              <img src="../pages/img/eco2.png" alt="" class="img-eco-parque">
             </div>
-            <div class="eco-img">
-                <div class="div-info-eco">
-                    <img src="../pages/img/eco2.png" alt="" class="img-eco-parque">
-                    <h2 class="h2-img">viví naturaleza</h2>
-                </div>
-                <div class="div-info-eco">
-                    <h2 class="h2-img">Viví deporte</h2>
-                    <img src="../pages/img/eco1 1.png" alt="" class="img-eco-parque">
-                </div>
-                <div class="div-info-eco">
-                    <img src="../pages/img/eco3.png" alt="" class="img-eco-parque">
-                    <h2 class="h2-img">Viví aventura</h2>
-                </div>
+              <div data-aos="fade-right">
+                <h2 class="h2-img">viví naturaleza</h2>
+              </div>
+          </div>
+          <div class="div-info-eco div-info-eco2">
+            <div data-aos="fade-right">
+              <img src="../pages/img/eco1 1.png" alt="" class="img-eco-parque">
             </div>
-        </div>
+            <div data-aos="fade-left">
+              <h2 class="h2-img">Viví deporte</h2>
+            </div>
+          </div>
+          <div class="div-info-eco">
+            <div data-aos="fade-right">
+              <img src="../pages/img/eco3.png" alt="" class="img-eco-parque">
+            </div>
+            <div data-aos="fade-right">
+              <h2 class="h2-img">Viví aventura</h2>
+            </div>
+          </div>
+      </div>
     </main>
     <footer class="footer-container">
         <div class="div-footer">
@@ -87,6 +95,7 @@
             </div>           
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
