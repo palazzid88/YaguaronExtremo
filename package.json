@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Este repositorio será para crear el proyecto final de Revolución digital San Nicolás - desarrolloWeb + JS -",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-sass": "node-sass --include-path scss sass/index.scss css/main.css",
-    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
