@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/palazzid88/revolucion-digital-sn#readme",
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "vite": "^4.3.9"
   },
   "devDependencies": {
     "node-sass": "^9.0.0",
